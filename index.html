@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usługi - Szlifkom.pl</title>
+    <style>
+        html, body {
+            height: 100%;
+        }
+        
+        body {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        nav ul li {
+            margin-right: 10px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        main {
+            max-width: 900px;
+            margin: 20px auto 0;
+            background-color: #fff;
+            padding: 10px;
+            flex-grow: 0;
+            border-radius: 15px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+            margin-top: auto;
+        }
+        
+        h1 {
+            color: #fff;
+            text-align: center;
+            line-height: 1.5;
+        }
+        
+        h1 span {
+            display: inline-block;
+            vertical-align: middle;
+        }
+        
+        p {
+            color: #555;
+            line-height: 1.5;
+        }
+        
+        ul {
+            color: #555;
+            line-height: 1.5;
+            margin-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        img {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            z-index: -1;
+        }
+        
+        .info-tab {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 20px;
+        }
+        
+        .info-content {
+            position: fixed;
+            bottom: 70px;
+            left: 20px;
+            background-color: #fff;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+        
+        .info-tab:hover + .info-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="C:\Users\burtu\OneDrive\Dokumenty\podroba szlikoma\Strona Główna\strona-glowna.html" target="_blank">Strona główna</a></li>
+				<li><a h="" style="text-align: left; target="_blank"><strong>Usługi</strong></a></li>
+                <li style="text-align: right;"><a href="C:\Users\burtu\OneDrive\Dokumenty\podroba szlikoma\kontakt\Kontakt.html" target="_blank" style="color: white;">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <header>
+            <h1>Zakres usług - cyklinowanie, renowacja, olejowanie. <span>Szlifkom</span></h1>
+        </header>
+        <section>
+            <p>Realizujemy usługi m.in. w zakresie bezpyłkowego cyklinowania parkietu, renowacji schodów i listew, olejowania i lakierowania, podłóg w Warszawie i okolicach.</p>
+            <p>Świadczymy profesjonalne usługi, takie jak:</p>
+            <ul>
+                <li><a style="color: #000000;" href="C:\Users\burtu\OneDrive\Dokumenty\podroba szlikoma\usługi\Cyklinowanie parkietu bez uciążliwego kurzu.html" target="_blank">Cyklinowanie parkietu bez uciążliwego kurzu</a></li>
+                <li><a style="color: #000000;" href="C:\Users\burtu\OneDrive\Dokumenty\podroba szlikoma\usługi\szpachlowanie dziur.html" target="_blank">Szpachlowanie dziur</a></li>
+                <li><a style="color: #000000;" href="C:\Users\burtu\OneDrive\Dokumenty\podroba szlikoma\usługi\Renowacja schodów drewnianych.html" target="_blank">Renowacja schodów drewnianych i listew przypodłogowych</a></li>
+                <li><a style="color: #000000;" href="C:\Users\burtu\OneDrive\Dokumenty\podroba szlikoma\usługi\Montaż listew przypodłogowych.html" target="_blank">Montaż listew przypodłogowych</a></li>
+                <li><a style="color: #000000;" href="C:\Users\burtu\OneDrive\Dokumenty\podroba szlikoma\usługi\Lakierowanie.html" target="_blank">Olejowanie i lakierowanie podłóg drewnianych</a></li>
+                <li><a style="color: #000000;" href="C:\Users\burtu\OneDrive\Dokumenty\podroba szlikoma\usługi\Montaż cokołów przypodłogowych.html" target="_blank">Montaż i renowacja cokołów przypodłogowych</a></li>
+            </ul>
+            <p>Wykonujemy także drobne naprawy i nietypowe renowacje np. parapety drewniane, progi, belki itp. Polecanym przez nas produktem do aplikacji jest dwuskładnikowy lakier poliuretanowy APU-2.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Szlifkom.pl Wszelkie prawa zastrzeżone.</p>
+    </footer>
+    <img src="podloga.png" alt="Podłoga">
+    <div class="info-tab">ℹ️</div>
+    <div class="info-content">
+        <p><strong>Autor strony:</strong></p>
+        <p>Bartosz Gwiazda</p>
+        <p><strong>Kontakt:</strong></p>
+        <p>kontakt.bartek.gwiazda@gmail.com</p>
+    </div>
+</body>
+</html>
